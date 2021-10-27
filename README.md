@@ -5,11 +5,9 @@
 Step 1: Open Terminal to check the node version.  
         Command For Node Verison is `npm -v` as cypress need Node.js version 12 or 14 and above  
 Step 2: Install [Node.js](https://nodejs.org/en/download/)  
-Step 3: Open Terminal and Repeat the Step 1   
-Step 3: Create a project folder       
-Step 4: Create a package.json file  
-Step 5: [Install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) using npm.   
-Step 6: Open Cypress.  
+Step 3: Open Terminal and Repeat the Step 1       
+Step 4: [Install Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) using npm.   
+Step 5: Open Cypress.  
         `npx cypress open` (Used to open cypress CLI form NODE Command Prompt)   
         Note : npx is available with npm > 5.2 version only  
 
