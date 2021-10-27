@@ -1,14 +1,19 @@
 //To Open Given Test Page (NHS Cost Checker Tool)
 describe ('Wales Test Ticket ', function() {
-    it("Open NHS Cost Checker Tool Give Circumstances to get Help", function()
+    
+  it("Open NHS Cost Checker Tool Give Circumstances to get Help", function()
     {
+      //To Open the Test Page 
     cy.visit('https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start')
 
-    cy.url().should('include', '/start')
-
+    //This Assertion is used to See (User has landed on the Desired Page)
+    // This assertion is made on the URL
+    cy.url().should('include', '/start')  
+                                         
     cy.contains('Start now').click()
 
-    cy.get('#question-heading').contains('Which country do you live in?')
+    //This Assertion is used to verify user has navigated to right step
+    cy.get('#question-heading').contains('Which country do you live in?') 
 
     cy.contains('Wales').click()
 
@@ -54,7 +59,8 @@ describe ('Wales Test Ticket ', function() {
 
     cy.contains('Next').click()
 
-    cy.get('.heading-large').contains('You get help with NHS costs')
+    // This assertion is made: To know user has finished the process
+    cy.get('.heading-large').contains('You get help with NHS costs') 
 
     cy.get('#result-reason').contains('Because you and your partner get Universal Credit and your combined take-home pay was less than £935:')
 
