@@ -23,7 +23,7 @@ Step 5: Open Cypress.
 ````
 
 
-# 3: How to Run This Test Suite  
+# How to Run This Test Suite  
 
   Step 1: Go to Cypress Folder  
   Step 2: Navigate to Integration Folder in Cypress  
