@@ -1,5 +1,5 @@
 # Wales_Test_Ticket
-Pre-Requisites: 
+# Pre-Requisites: 
 
 1: Installation: 
 Step 1: Open Terminal to check the node version.  
